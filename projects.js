@@ -1,8 +1,8 @@
 const projects = [
-    {id: 1, name: 'Dopefolio', description: 'Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally', image: '/src/assets/dopefolio.jpeg'},
-    {id: 2, name: 'Wilsonport', description: 'Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.', image: '/src/assets/wilsonport.jpeg'},
-    {id: 3, name: 'Boreal Coffee Clone', description: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.", image: '/src/assets/boreal-coffee-clone.jpeg'},
-    {id: 4, name: 'Crown Template', description:'Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.', image:'/src/assets/crown-template.jpeg'}
+    {id: 1, name: "L'HAMZA", description: "L'HAMZA is an e-commerce application I developed using Laravel, Tailwind CSS, and AJAX. This project features a user-friendly interface, efficient cart functionality, and a robust back-end to manage products, orders, and customer information. It demonstrates my ability to build comprehensive, dynamic web applications that provide seamless shopping experiences.", image: 'assets/lhamza.png', link:'https://github.com/Redalaaouaj/l-hamza---ecommerce_project'},
+    {id: 2, name: 'My Portfolio', description: 'This portfolio is a project that I created using React and Tailwind. It showcases my skills and serves as a personal website to highlight my work and experience in web development.', image: 'assets/portfolio.png', link:'https://redalaaouaj.me'},
+    {id: 3, name: 'Reda Shop', description: "Reda Shop is one of my early projects in the web development domain. It is a shopping application created using HTML, CSS, and JavaScript. This project allowed me to develop fundamental web development skills and provided a solid foundation for building more complex applications in the future.", image: 'assets/reda-shop.png', link:'https://reda-shopping.000webhostapp.com/index.html'},
+
 ]
 
 export default projects;
