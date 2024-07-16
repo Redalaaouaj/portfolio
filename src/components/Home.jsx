@@ -1,8 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import LinkedIn from "../assets/socials/linkedin.svg";
-import Twitter from "../assets/socials/twitter.svg";
-import GitHub from "../assets/socials/github.svg";
-import WhatsApp from "../assets/socials/whatsapp.svg";
 import { TypeAnimation } from "react-type-animation";
 
 // motion
@@ -30,9 +26,9 @@ const Home = () => {
               // Same substring at the start will only be typed once, initially
               "Designing for the Future, One Website at a Time.",
               1000,
-              "Designing for the Online Presence.",
+              "Building Seamless Full Stack Solutions.",
               1000,
-              "Designing for the Pixel Perfect Experiences.",
+              "Empowering Your Business with Full Stack Expertise.",
               1000,
               "We Create, You Conquer.",
               1000,
@@ -43,9 +39,7 @@ const Home = () => {
           />
           {/* hero info */}
           <p className="text-light text-xl my-8">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+          A Full Stack Developer building the Frontend and Backend of Websites and Web Applications that leads to the success of the overall product.
           </p>
           <button className="btn py-4 px-16">PROJECTS</button>
 
@@ -59,7 +53,7 @@ const Home = () => {
             href="https://www.linkedin.com/in/reda-laaouaj-24b0331b6/"
             className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
           >
-            <img src={LinkedIn} alt="" className="w-10 h-10" />
+            <img src={'assets/socials/linkedin.svg'} alt="" className="w-10 h-10" />
           </a>
         </div>
         <div className="my-1">
@@ -67,7 +61,7 @@ const Home = () => {
             href="https://github.com/Redalaaouaj"
             className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
           >
-            <img src={GitHub} alt="" className="w-10 h-10" />
+            <img src={'assets/socials/github.svg'} alt="" className="w-10 h-10" />
           </a>
         </div>
         <div className="my-1">
@@ -75,7 +69,7 @@ const Home = () => {
             href="https://wa.link/8xo91c"
             className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
           >
-            <img src={WhatsApp} alt="" className="w-10 h-10" />{/* whatsapp */}
+            <img src={'assets/socials/whatsapp.svg'} alt="" className="w-10 h-10" />{/* whatsapp */}
           </a>
         </div>
       </div>

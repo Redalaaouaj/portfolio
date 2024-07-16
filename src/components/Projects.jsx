@@ -26,7 +26,7 @@ const Projects = () => {
                         <div className="md:w-10/12 text-center md:text-left px-2">
                         <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
                         <p className="text-lg text-[#666] leading-6 mb-6">{project.description}</p>
-                        <button className="btn py-3 px-7">Case Study</button>
+                        <a target="blank" href={project.link} className="btn py-3 px-7">Case Study</a>
                         </div>
                     </motion.div>
                 </div>)}

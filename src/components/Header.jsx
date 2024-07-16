@@ -5,7 +5,6 @@ import {
 } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import profileImg from '../assets/profile-pic.jpg'
 
 const Header = () => {
   let Links = [
@@ -21,7 +20,7 @@ const Header = () => {
       <div className="md:flex items-center justify-between bg-white py-4 md:px-14 px-7 fixed top-0 left-0 right-0 shadow-sm">
         {/* logo section */}
         <div className="font-bold text-2xl tracking-wide cursor-pointer flex items-center gap-1">
-            <img src={profileImg} alt="" className="md:w-12 md:h-12 w-10 h-10"/>
+            <img src={"assets/profile-pic.jpg"} alt="" className="md:w-12 md:h-12 w-10 h-10"/>
           <span className="text-primary hover:text-secondary md:ml-3 ml-2">REDA LAAOUAJ</span>
         </div>
         {/* Menu icon */}

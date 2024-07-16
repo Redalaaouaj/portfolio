@@ -1,6 +1,3 @@
-import linkedinIcon from '../assets/icons-white/linkedin-white.png';
-import githubIcon from '../assets/icons-white/github-white.png';
-import whatsappIcon from '../assets/icons-white/whatsapp-white.png';
 
 const Footer = () => {
   return (
@@ -12,9 +9,7 @@ const Footer = () => {
             REDA LAAOUAJ
           </h4>
           <p className="mt-5 text-sm leading-7 text-[#eee]">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+          A Full Stack Developer building the Frontend and Backend of Websites and Web Applications that leads to the success of the overall product.
           </p>
         </div>
         {/* social icons */}
@@ -23,9 +18,9 @@ const Footer = () => {
             SOCIAL
           </h4>
           <div className='mt-5 flex gap-3'>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/reda-laaouaj-24b0331b6/" className='ml-1'><img src={linkedinIcon} alt="" className='w-7 h-7'/></a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/Redalaaouaj" className='ml-1'><img src={githubIcon} alt="" className='w-7 h-7'/></a>
-            <a target="_blank" rel="noreferrer" href="https://wa.link/8xo91c" className='ml-1'><img src={whatsappIcon} alt="" className='w-7 h-7'/></a> 
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/reda-laaouaj-24b0331b6/" className='ml-1'><img src={'assets/icons-white/linkedin-white.png'} alt="" className='w-7 h-7'/></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Redalaaouaj" className='ml-1'><img src={'assets/icons-white/github-white.png'} alt="" className='w-7 h-7'/></a>
+            <a target="_blank" rel="noreferrer" href="https://wa.link/8xo91c" className='ml-1'><img src={'assets/icons-white/whatsapp-white.png'} alt="" className='w-7 h-7'/></a> 
 
 
           </div>
