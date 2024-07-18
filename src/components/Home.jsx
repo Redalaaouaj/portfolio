@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -41,7 +42,14 @@ const Home = () => {
           <p className="text-light text-xl my-8">
           A Full Stack Developer building the Frontend and Backend of Websites and Web Applications that leads to the success of the overall product.
           </p>
+          <Link 
+          to="projects"
+          activeClass="active"
+          smooth={true}
+          spy={true}
+          offset={-100}>
           <button className="btn py-4 px-16">PROJECTS</button>
+          </Link>
 
 
         </motion.div>
