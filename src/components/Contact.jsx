@@ -1,11 +1,29 @@
 import Headline from "../shared/Headline";
-
 // motion
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm('service_23hz2kc', 'template_5jmfbqj', form.current, 'pBQ_KD-l3WUwWgXdV')
+    .then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      (error) => {
+        console.log('FAILED...', error);
+      },
+    );
+  }
   return (
     <motion.div
       variants={fadeIn("right", 0.2)}
@@ -23,7 +41,7 @@ const Contact = () => {
       />
 
       <div className="md:w-2/3 mx-auto bg-white md:px-16 px-8 py-8 rounded mb-32">
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name: </label>
           <input
             type="text"
